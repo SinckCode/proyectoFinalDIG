@@ -69,8 +69,9 @@ body{
 
 
 main{
-    background-image: url("src/Fondo.png");
+    background-image: url("./src/Fondo.png");
 }
+
 
 #MainLogo{
     margin-top: 1rem;
@@ -86,9 +87,38 @@ main{
     flex-direction: column;
 }
 
+.carousel-item img {
+    height: 14rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen al pasar el cursor */
+}
+
+
+
+
 #Carrusel h3{
     font-size: 2rem;
     font-family: 'Inter', sans-serif;
+}
+
+.left-arrow {
+    position: absolute;
+    left: 10px;
+    top: 55rem;
+    transform: translateY(-50%);
+}
+
+.right-arrow {
+    position: absolute;
+    right: 10px;
+    top: 55rem;
+    transform: translateY(-50%);
 }
 
 div img{
