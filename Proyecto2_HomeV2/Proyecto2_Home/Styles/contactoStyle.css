@@ -1,0 +1,76 @@
+.row {
+    display: flex;
+}
+
+.left{
+    width: 34%;
+}
+
+.right{
+    margin-left: 7rem;
+    width: 66%;
+}
+
+.right p{
+    text-align: justify;
+    margin-right: 5rem;
+}
+
+body main{
+    font-family: 'Inter', sans-serif
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.enviarButton{
+    margin-left: 2rem;
+    font-size: 2rem;
+    width: fit-content;
+    background-color: #3285D2;
+    color: white;
+    border-radius: 4rem;
+    padding: 1rem;
+}
+
+.blueBox{
+    padding: 1rem;
+    padding-top: 0.2rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    outline: solid #3285D2;
+    background-color: #3285d24b;
+    color: black;
+}
+
+.blueBox h1{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin: 0%;
+    font-size: 5rem;
+}
+
+.blueBox h2{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+.boxTextInput{
+    margin-left: 6rem;
+    margin: 3rem;
+}
